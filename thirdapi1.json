@@ -1,177 +1,949 @@
 {
-  "count": 52,
-  "next": "https://data.gov.spb.ru/api/v2/datasets/233/versions/latest/data/342/?page=2",
+  "count": 63,
+  "next": "http://science.gate.petersburg.ru/api/v1/public/event/?page=2",
   "previous": null,
   "results": [
     {
-      "number": 1,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования \"Санкт-Петербургская городская художественная школа им. Г.Н.Антонова\"",
-      "abbreviated_name": "СПб ГБУ ДО «Санкт-Петербургская городская детская художественная школа имени Г.Н. Антонова»",
-      "address": "190068, г.Санкт-Петербург, проспект Римского-Корсакова, дом 18/13, литер А",
-      "legal_address": "190068, г.Санкт-Петербург, проспект Римского-Корсакова, дом 18/13, литера А, помещение №1-Н",
-      "district": "Адмиралтейский",
-      "nearest_subway_station": "Сенная Площадь",
-      "chief": "Борисова Инна Олеговна",
-      "phone": "246-30-43",
-      "fax": "246-30-43",
-      "email": "spbghsh@yandex.ru",
-      "mo": "МО Коломна",
-      "inn": 7825441087,
-      "ogrn": 1047839021372,
-      "note": "spb-artschool.ru"
+      "id": 1,
+      "isFavorite": false,
+      "organizer": {
+        "id": 79,
+        "url": "/api/v1/organization/79/",
+        "name": "Центральный научно-исследовательский и опытно-конструкторский институт робототехники и технической кибернетики"
+      },
+      "organizerAddress": "194064 г. Санкт-Петербург, Тихорецкий пр-кт, д.21",
+      "organizerAddressEng": "194064 St. Petersburg, Tikhoretsky pr-kt, 21",
+      "organizerSupervisorFio": "Черепанов Сергей Сергеевич",
+      "organizerSupervisorFioEng": "Черепанов Сергей Сергеевич",
+      "organizerSite": "https://er.rtc.ru/ru",
+      "organizerVk": null,
+      "organizerTelegram": null,
+      "organizerEmail": "mrspb@rtc.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        },
+        {
+          "id": "postgraduate",
+          "name": "Аспирант"
+        },
+        {
+          "id": "PhD",
+          "name": "Докторант"
+        },
+        {
+          "id": "leader",
+          "name": "Руководитель"
+        },
+        {
+          "id": "worker",
+          "name": "Преподаватель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2022-12-07T16:35:37.326298+03:00",
+      "updatedAt": "2023-11-25T00:00:00.086551+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78125524521"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, Тихорецкий пр-кт, д 21",
+      "locationEng": "Russia, Saint-Petersburg city, prospekt Tikhoretsky, dom 21",
+      "membersAges": {
+        "lower": 17,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "closed",
+        "name": "Запись закрыта"
+      },
+      "registrationPeriod": {
+        "lower": "2023-01-01T00:00:23.318000+03:00",
+        "upper": "2023-11-01T23:59:30.318000+03:00"
+      },
+      "registrationComment": "Регистрация участников осуществляется на официальном сайте за 5 месяцов до конференции.\nhttps://er.rtc.ru/ru/registratsiya-2",
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-11-23T00:00:03.956000+03:00",
+          "upper": "2023-11-24T23:59:44.956000+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "60.02084512776808400",
+        "30.36878485005605600"
+      ],
+      "title": "34-я международная конференция «Экстремальная робототехника» («ЭР-2023»)",
+      "titleEng": "Конференция",
+      "cypher": "ЭР-2023",
+      "isPublished": true,
+      "publishedAt": "2023-07-20T17:52:33.291555+03:00",
+      "cover": {
+        "id": "ee100cb1-666e-466d-8509-d573a9f6264e",
+        "url": "/api/v1/organization_attachment/ee100cb1-666e-466d-8509-d573a9f6264e/",
+        "name": "AKPH3934.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 2,
-      "name": "Санкт-Петербургское государственное бюджетное образовательное учреждение дополнительного образования \"Санкт - Петербургская детская художественная школа №12\"",
-      "abbreviated_name": "СПб ГБУ ДО «Санкт-Петербургская детская художественная школа № 12»",
-      "address": "195257, г.Санкт-Петербург, Северный проспект, дом 69/98, литер А",
-      "legal_address": "195257, г.Санкт-Петербург, Северный проспект, дом 69/98, литера А,",
-      "district": "Калининский",
-      "nearest_subway_station": "Академическая",
-      "chief": "Роков Иосиф Антонович",
-      "phone": "555-73-61",
-      "fax": "556-37-93",
-      "email": "dhsh@yandex.ru",
-      "mo": "МО Академическое",
-      "inn": 7804151387,
-      "ogrn": 1047806031900,
-      "note": "http://дхш12.рф"
+      "id": 2,
+      "isFavorite": false,
+      "organizer": {
+        "id": 105,
+        "url": "/api/v1/organization/105/",
+        "name": "Центральный научно-исследовательский институт конструкционных материалов «Прометей» имени И.В. Горынина Национального исследовательского центра «Курчатовский институт»"
+      },
+      "organizerAddress": "Санкт-Петербург, ул. Шпалерная, 49",
+      "organizerAddressEng": "Shpalernaya ul. 49, St. Petersburg",
+      "organizerSupervisorFio": "Орыщенко Алексей Сергеевич",
+      "organizerSupervisorFioEng": "Aleksei S. Oryshchenko",
+      "organizerSite": "http://www.crism-prometey.ru",
+      "organizerVk": null,
+      "organizerTelegram": null,
+      "organizerEmail": "oknir@crism.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "leader",
+          "name": "Руководитель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2022-12-07T17:22:40.136592+03:00",
+      "updatedAt": "2023-09-15T00:00:00.087485+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78122743796",
+        "78122743796"
+      ],
+      "eventFormat": {
+        "id": "offline",
+        "name": "Очное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "ГК \"Дворец Конгрессов\", г. Санкт-Петербург, п. Стрельна",
+      "locationEng": "ГК \"Дворец Конгрессов\", г. Санкт-Петербург, п. Стрельна",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": "",
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-09-13T00:00:06.199000+03:00",
+          "upper": "2023-09-14T23:59:54.199000+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.85283039087831000",
+        "30.06778126676833000"
+      ],
+      "title": "III Международная конференция \"Материалы и технологии для Арктики\"",
+      "titleEng": "III Международная конференция \"Материалы и технологии для Арктики\"",
+      "cypher": "МТА",
+      "isPublished": true,
+      "publishedAt": "2023-07-25T11:11:53.624899+03:00",
+      "cover": null,
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 3,
-      "name": "Санкт-Петербургское государственное бюджетное профессиональное образовательное учреждение \"Санкт-Петербургское художественное училище имени Н.К.Рериха\"",
-      "abbreviated_name": "СПб ГБПОУ \"Санкт-Петербургское художественное училище им. Н.К.Рериха\"",
-      "address": "195257, г.Санкт-Петербург, Гражданский проспект, дом 88, корпус 2, литер А",
-      "legal_address": "195257, г.Санкт-Петербург, Гражданский проспект, дом 88, корпус 2, литера А",
-      "district": "Калининский",
-      "nearest_subway_station": "Академическая",
-      "chief": "Иванов Станислав Дмитриевич",
-      "phone": "555-84-44",
-      "fax": "550-86-83",
-      "email": "rerihnk@mail.ru",
-      "mo": "МО Академическое",
-      "inn": 7804080601,
-      "ogrn": 1037808021240,
-      "note": "rerihspbhu.ru"
+      "id": 24,
+      "isFavorite": false,
+      "organizer": {
+        "id": 67,
+        "url": "/api/v1/organization/67/",
+        "name": "Арктический и антарктический научно-исследовательский институт"
+      },
+      "organizerAddress": "Россия, 199397, Санкт-Петербург, ул. Беринга, 38",
+      "organizerAddressEng": "38 Bering st., Russian Federation, 199397, St. Petersburg",
+      "organizerSupervisorFio": "Трусова Снежана",
+      "organizerSupervisorFioEng": "Трусова Снежана",
+      "organizerSite": "https://www.aari.ru/press-center/events/v-aanii-proydyot-nauchno-delovaya-konferentsiya-polar-2023",
+      "organizerVk": "https://vk.com/arcticandantarctic",
+      "organizerTelegram": "https://t.me/aari_official",
+      "organizerEmail": "pressa@aari.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        },
+        {
+          "id": "leader",
+          "name": "Руководитель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2023-07-20T16:26:16.306403+03:00",
+      "updatedAt": "2023-08-31T11:37:00.077501+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "79213668470"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Беринга, д 38",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Beringa, dom 38",
+      "membersAges": {
+        "lower": 14,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-05-23T00:00:13.057000+03:00",
+          "upper": "2023-05-23T23:59:00.777000+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.94653442038434000",
+        "30.23361069367656000"
+      ],
+      "title": "POLAR 2023",
+      "titleEng": "POLAR 2023",
+      "cypher": "POLAR 2023",
+      "isPublished": true,
+      "publishedAt": "2023-07-20T16:46:25.178093+03:00",
+      "cover": {
+        "id": "fbe869ee-63d5-46f2-8410-74a2fefa3c0a",
+        "url": "/api/v1/organization_attachment/fbe869ee-63d5-46f2-8410-74a2fefa3c0a/",
+        "name": "maxresdefault.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 4,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования \"Санкт-Петербургская детская художественная школа \"Александрино\"",
-      "abbreviated_name": "СПб ГБУ ДО \"Санкт-Петербургская детская художественная школа \"Александрино\"",
-      "address": "198262, г.Санкт-Петербург, проспект Стачек, дом 226, литер А",
-      "legal_address": "198262, г.Санкт-Петербург, проспект Стачек, дом 226, литер А",
-      "district": "Кировский",
-      "nearest_subway_station": "Ленинский проспект",
-      "chief": "Авикайнен Татьяна Эдуардовна",
-      "phone": "246-29-39, 246-29-40, 246-29-38",
-      "fax": "246-29-39",
-      "email": "aleksandrino.spb@mail.ru",
-      "mo": "МО Дачное",
-      "inn": 7805186872,
-      "ogrn": 1037811043225,
-      "note": "alexandrino.ru"
+      "id": 33,
+      "isFavorite": false,
+      "organizer": {
+        "id": 120,
+        "url": "/api/v1/organization/120/",
+        "name": "Комитет по науке и высшей школе"
+      },
+      "organizerAddress": "Новгородская ул., д.20, литера А, Санкт-Петербург, 191144",
+      "organizerAddressEng": null,
+      "organizerSupervisorFio": "Попов Константин Игоревич",
+      "organizerSupervisorFioEng": null,
+      "organizerSite": "http://knvsh.gov.spb.ru/",
+      "organizerVk": null,
+      "organizerTelegram": null,
+      "organizerEmail": "knvsh@gov.spb.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 14,
+        "url": "/api/v1/event_type/14/",
+        "name": "Салон"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        },
+        {
+          "id": "postgraduate",
+          "name": "Аспирант"
+        },
+        {
+          "id": "PhD",
+          "name": "Докторант"
+        },
+        {
+          "id": "leader",
+          "name": "Руководитель"
+        },
+        {
+          "id": "worker",
+          "name": "Преподаватель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2023-10-12T11:51:11.840111+03:00",
+      "updatedAt": "2023-11-30T17:01:00.326868+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78125767328"
+      ],
+      "eventFormat": {
+        "id": "offline",
+        "name": "Очное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "Санкт-Петербург,  КВЦ «Экспофорум»",
+      "locationEng": "Russia, Saint-Petersburg city, poselok Shushary, shosse Peterburgskoe, dom 64 k 1",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-11-28T10:00:46.400000+03:00",
+          "upper": "2023-11-30T17:00:04.400000+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.76217115811833500",
+        "30.35688044362384000"
+      ],
+      "title": "Санкт-Петербургский международный научно-образовательный салон",
+      "titleEng": "Saint-Petersburg International Science and Education Fair",
+      "cypher": "SPB ISEF",
+      "isPublished": true,
+      "publishedAt": "2023-10-12T11:54:45.095689+03:00",
+      "cover": {
+        "id": "a4c7b008-7279-49b4-8b17-b3e175cc815f",
+        "url": "/api/v1/organization_attachment/a4c7b008-7279-49b4-8b17-b3e175cc815f/",
+        "name": "_NOS_logo_1.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 14,
+        "url": "/api/v1/event_type/14/",
+        "name": "Салон"
+      }
     },
     {
-      "number": 5,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования «Санкт-Петербургская детская художественная школа № 13»",
-      "abbreviated_name": "СПб ГБУ ДО «Санкт-Петербургская детская художественная школа № 13»",
-      "address": "196105, г.Санкт-Петербург, Свеаборгская улица, дом 23, литер А, помещение №2-Н",
-      "legal_address": "196105, Санкт-Петербург, ул. Свеаборгская д. 23, лит. А, часть помещения 2Н",
-      "district": "Московский",
-      "nearest_subway_station": "Чернышевская",
-      "chief": "Южакова Лариса Александровна",
-      "phone": "241-34-94",
-      "fax": "241-34-94",
-      "email": "art-school13@yandex.ru",
-      "mo": "МО Московская застава",
-      "inn": 7810213225,
-      "ogrn": 1047815029107,
-      "note": "art-school13.ru"
+      "id": 35,
+      "isFavorite": false,
+      "organizer": {
+        "id": 53,
+        "url": "/api/v1/organization/53/",
+        "name": "Академия машиностроения имени Ж.Я. Котина"
+      },
+      "organizerAddress": "192174, г. Санкт-Петербург, ул. Бабушкина, д. 119, литера А",
+      "organizerAddressEng": null,
+      "organizerSupervisorFio": "Платонов Евгений Владимирович",
+      "organizerSupervisorFioEng": null,
+      "organizerSite": "https://academykotin.ru/",
+      "organizerVk": "https://vk.com/nevmash",
+      "organizerTelegram": "https://t.me/professionalismAMK",
+      "organizerEmail": "info@academykotin.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 16,
+        "url": "/api/v1/event_type/16/",
+        "name": "Конкурс"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        }
+      ],
+      "createdAt": "2023-10-31T11:45:16.044289+03:00",
+      "updatedAt": "2023-12-20T20:01:00.059666+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78123623215"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Бабушкина, д 119",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Babushkina, dom 119",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-09-15T11:00:30.138000+03:00",
+          "upper": "2023-12-20T20:00:00.138000+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.86231460630155000",
+        "30.46117921729055300"
+      ],
+      "title": "Наш СОЮЗМАШ",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-12-13T11:19:51.676232+03:00",
+      "cover": {
+        "id": "591e3a12-b21d-482c-8954-e9cabe043c66",
+        "url": "/api/v1/organization_attachment/591e3a12-b21d-482c-8954-e9cabe043c66/",
+        "name": "42.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 16,
+        "url": "/api/v1/event_type/16/",
+        "name": "Конкурс"
+      }
     },
     {
-      "number": 6,
-      "name": "Государственное бюджетное  учреждение дополнительного образования \"Санкт-Петербургская детская художественная школа им. Б.М. Кустодиева\"",
-      "abbreviated_name": "ГБУ ДО \"Санкт-Петербургская детская художественная школа имени Б.М. Кустодиева\"",
-      "address": "197022, г.Санкт-Петербург, Каменный остров, Боковая аллея, дом 1, литер А",
-      "legal_address": "197022, г.Санкт-Петербург, Каменный остров, Боковая аллея, дом 1, литера А,",
-      "district": "Петроградский",
-      "nearest_subway_station": "Черная речка, Петроградская",
-      "chief": "Керт Александр Борисович",
-      "phone": "234-13-95",
-      "fax": "234-13-95",
-      "email": "artschool73@narod.ru",
-      "mo": "МО Чкаловское",
-      "inn": 7813138897,
-      "ogrn": 1037828010538,
-      "note": "http://kustodiev-school.ru/"
+      "id": 49,
+      "isFavorite": false,
+      "organizer": {
+        "id": 19,
+        "url": "/api/v1/organization/19/",
+        "name": "Санкт-Петербургский государственный университет аэрокосмического приборостроения"
+      },
+      "organizerAddress": "190000, Санкт-Петербург, ул. Большая Морская, д. 67, лит. А",
+      "organizerAddressEng": "SUAI, 67, Bolshaya Morskaia str., Saint-Petersburg, 190000, RUSSIA",
+      "organizerSupervisorFio": "Антохина Юлия Анатольевна",
+      "organizerSupervisorFioEng": "Yulia A. Antokhina",
+      "organizerSite": "https://guap.ru/",
+      "organizerVk": "https://vk.com/guap_ru",
+      "organizerTelegram": "https://t.me/new_guap",
+      "organizerEmail": "info@guap.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        }
+      ],
+      "createdAt": "2023-11-02T14:25:43.989382+03:00",
+      "updatedAt": "2023-11-22T13:48:01.234720+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78127106510"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Большая Морская, д 67",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Bolshaya Morskaya, dom 67",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-10-09T22:00:00+03:00",
+          "upper": "2023-10-15T22:00:00+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.92964835923482000",
+        "30.29676290722655000"
+      ],
+      "title": "Цифровой форум 'Время IT'",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-11-22T13:48:01.233051+03:00",
+      "cover": {
+        "id": "7ee312ed-0569-4406-8351-ce15c6ee7c24",
+        "url": "/api/v1/organization_attachment/7ee312ed-0569-4406-8351-ce15c6ee7c24/",
+        "name": "18.png"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 7,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования \"Санкт-Петербургская детская художественная школа № 17\"",
-      "abbreviated_name": "СПб ГБУ ДО \"СПб ДХШ №17\"",
-      "address": "197183, г.Санкт-Петербург, Приморский проспект, дом 87, литер А",
-      "legal_address": "197183, г. Санкт-Петербург, Приморский проспект, дом 87, литера А",
-      "district": "Приморский",
-      "nearest_subway_station": "Старая Деревня",
-      "chief": "Терехов Николай Иванович",
-      "phone": "430-15-20",
-      "fax": "430-32-64",
-      "email": "dhsh17@yandex.ru",
-      "mo": "МО № 66",
-      "inn": 7814115042,
-      "ogrn": 1037832017343,
-      "note": "dhsh17.ru"
+      "id": 58,
+      "isFavorite": false,
+      "organizer": {
+        "id": 19,
+        "url": "/api/v1/organization/19/",
+        "name": "Санкт-Петербургский государственный университет аэрокосмического приборостроения"
+      },
+      "organizerAddress": "190000, Санкт-Петербург, ул. Большая Морская, д. 67, лит. А",
+      "organizerAddressEng": "SUAI, 67, Bolshaya Morskaia str., Saint-Petersburg, 190000, RUSSIA",
+      "organizerSupervisorFio": "Антохина Юлия Анатольевна",
+      "organizerSupervisorFioEng": "Yulia A. Antokhina",
+      "organizerSite": "https://guap.ru/",
+      "organizerVk": "https://vk.com/guap_ru",
+      "organizerTelegram": "https://t.me/new_guap",
+      "organizerEmail": "info@guap.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "PhD",
+          "name": "Докторант"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2023-11-02T14:25:44.724265+03:00",
+      "updatedAt": "2023-12-08T11:34:30.364196+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78127106510"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Большая Морская, д 67",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Bolshaya Morskaya, dom 67",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-05-29T22:00:00+03:00",
+          "upper": "2023-06-02T22:00:00+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.92955890242772000",
+        "30.29664904517955600"
+      ],
+      "title": "XXVI международная научная конференция «Волновая электроника и инфокоммуникационные системы» (WECONF-2023)",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-12-08T11:34:30.362215+03:00",
+      "cover": {
+        "id": "edb86ee4-d786-4985-87af-6bebe3b078a8",
+        "url": "/api/v1/organization_attachment/edb86ee4-d786-4985-87af-6bebe3b078a8/",
+        "name": "38.png"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 8,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования «Санкт-Петербургская детская художественная школа № 6»",
-      "abbreviated_name": "СПб ГБУ ДО «Санкт-Петербургская детская художественная школа № 6»",
-      "address": "193024, г.Санкт-Петербург, Невский проспект, дом 146, литер А",
-      "legal_address": "191024, г.Санкт-Петербург, Невский проспект, дом 146, литера А, помещение №2-Н, 19-Н",
-      "district": "Фрунзенский",
-      "nearest_subway_station": "Площадь Восстания",
-      "chief": "Александрова Алла Викторовна",
-      "phone": "274-07-42",
-      "fax": "274-05-69",
-      "email": "dhsh6@rambler.ru",
-      "mo": "МО Смольнинское",
-      "inn": 7825442563,
-      "ogrn": 1057810316035,
-      "note": "dhsh6.ru"
+      "id": 65,
+      "isFavorite": false,
+      "organizer": {
+        "id": 16,
+        "url": "/api/v1/organization/16/",
+        "name": "Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И. Ульянова (Ленина)"
+      },
+      "organizerAddress": "ул. Профессора Попова, дом 5 литера Ф, Санкт-Петербург, Россия, 197022",
+      "organizerAddressEng": "ul. Professora Popova 5, 197022 St. Petersburg, Russian Federation",
+      "organizerSupervisorFio": "Шелудько Виктор Николаевич",
+      "organizerSupervisorFioEng": "Viktor N. Sheludko",
+      "organizerSite": "https://etu.ru",
+      "organizerVk": "https://vk.com/spbsetu",
+      "organizerTelegram": "https://t.me/LETIToday",
+      "organizerEmail": "info@etu.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 16,
+        "url": "/api/v1/event_type/16/",
+        "name": "Конкурс"
+      },
+      "membersStatuses": [
+        {
+          "id": "enrollee",
+          "name": "Абитуриент"
+        },
+        {
+          "id": "student",
+          "name": "Студент"
+        },
+        {
+          "id": "worker",
+          "name": "Преподаватель"
+        }
+      ],
+      "createdAt": "2023-11-02T14:30:26.333489+03:00",
+      "updatedAt": "2023-11-30T22:00:00.087728+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78122344651"
+      ],
+      "eventFormat": {
+        "id": "offline",
+        "name": "Очное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Профессора Попова, д 5",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Professora Popova, dom 5",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-03-28T22:00:00+03:00",
+          "upper": "2023-11-30T22:00:00+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.97259460491283500",
+        "30.32452651078670400"
+      ],
+      "title": "Международный конкурс молодых дизайнеров и архитекторов 'ЛЭТИ Кампус Дизайн'",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-11-14T14:24:13.982121+03:00",
+      "cover": {
+        "id": "43e665d0-6b28-4a5b-9868-1ff72c9769a2",
+        "url": "/api/v1/organization_attachment/43e665d0-6b28-4a5b-9868-1ff72c9769a2/",
+        "name": "1.png"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 16,
+        "url": "/api/v1/event_type/16/",
+        "name": "Конкурс"
+      }
     },
     {
-      "number": 9,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования\"Санкт-Петербургская детская художественная школа № 16\"",
-      "abbreviated_name": "СПб ГБУ ДО \"ДХШ № 16\"",
-      "address": "192007, г.Санкт-Петербург, набережная Обводного канала, дом 46, корпус 2, литер А",
-      "legal_address": "192007, г.Санкт-Петербург, набережная Обводного канала, дом 46, корпус 2, литер А",
-      "district": "Фрунзенский",
-      "nearest_subway_station": "Обводный канал",
-      "chief": "Гамбарян Каринэ Юрьевна",
-      "phone": "766-36-26",
-      "fax": "766-34-23",
-      "email": "art-schola16@yandex.ru",
-      "mo": "МО № 71",
-      "inn": 7816172328,
-      "ogrn": 1037835062550,
-      "note": "http://art-schkola16.ru/"
+      "id": 67,
+      "isFavorite": false,
+      "organizer": {
+        "id": 16,
+        "url": "/api/v1/organization/16/",
+        "name": "Санкт-Петербургский государственный электротехнический университет «ЛЭТИ» им. В.И. Ульянова (Ленина)"
+      },
+      "organizerAddress": "ул. Профессора Попова, дом 5 литера Ф, Санкт-Петербург, Россия, 197022",
+      "organizerAddressEng": "ul. Professora Popova 5, 197022 St. Petersburg, Russian Federation",
+      "organizerSupervisorFio": "Шелудько Виктор Николаевич",
+      "organizerSupervisorFioEng": "Viktor N. Sheludko",
+      "organizerSite": "https://etu.ru",
+      "organizerVk": "https://vk.com/spbsetu",
+      "organizerTelegram": "https://t.me/LETIToday",
+      "organizerEmail": "info@etu.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "student",
+          "name": "Студент"
+        },
+        {
+          "id": "PhD",
+          "name": "Докторант"
+        },
+        {
+          "id": "leader",
+          "name": "Руководитель"
+        },
+        {
+          "id": "worker",
+          "name": "Преподаватель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2023-11-02T14:30:26.837438+03:00",
+      "updatedAt": "2023-12-08T11:53:28.609839+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78122344651"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Профессора Попова, д 5",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Professora Popova, dom 5",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-07-28T23:59:43+03:00",
+          "upper": "2023-07-28T23:59:43+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.97194685851228000",
+        "30.32406918644972000"
+      ],
+      "title": "Менторинг-сессия WOMEN IN STEM в рамках Саммита и Экономического форума «Россия — Африка»/ Open Dialogue 'Women in STEM'",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-12-08T11:53:28.607548+03:00",
+      "cover": {
+        "id": "b12f4aa1-7b5f-4741-bd3e-a8a1e300a6c2",
+        "url": "/api/v1/organization_attachment/b12f4aa1-7b5f-4741-bd3e-a8a1e300a6c2/",
+        "name": "39.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     },
     {
-      "number": 10,
-      "name": "Санкт-Петербургское государственное бюджетное учреждение дополнительного образования \"Санкт-Петербургская Детская художественная школа № 2\"",
-      "abbreviated_name": "СПб ГБУ ДО «Санкт-Петербургская детская художественная школа № 2»",
-      "address": "191014, г.Санкт-Петербург, улица Некрасова, дом 10-12, литер А",
-      "legal_address": "191014, г.Санкт-Петербург, улица Некрасова, дом 10, литера А,помещения 12-Н, 15-Н",
-      "district": "Центральный",
-      "nearest_subway_station": "Чернышевская",
-      "chief": "Каракозова Екатерина Николаевна",
-      "phone": "272-55-67",
-      "fax": "272-55-67",
-      "email": "hudozhka2@yandex.ru",
-      "mo": "МО Литейный",
-      "inn": 7825131328,
-      "ogrn": 1037843137595,
-      "note": "http://www.hudozhka2.ru/"
+      "id": 69,
+      "isFavorite": false,
+      "organizer": {
+        "id": 28,
+        "url": "/api/v1/organization/28/",
+        "name": "Национальный государственный Университет физической культуры, спорта и здоровья имени П.Ф. Лесгафта, Санкт-Петербург"
+      },
+      "organizerAddress": "Россия, 190121, г. Санкт-Петербург, ул. Декабристов, д. 35.",
+      "organizerAddressEng": "35 Decembristov st., St. Petersburg 190121",
+      "organizerSupervisorFio": "Петров Сергей Иванович",
+      "organizerSupervisorFioEng": "Petrov Sergey Ivanovich",
+      "organizerSite": "http://lesgaft.spb.ru/",
+      "organizerVk": "https://vk.com/ngu_lesgafta",
+      "organizerTelegram": null,
+      "organizerEmail": "rectorlesgaft@mail.ru",
+      "freePlaces": null,
+      "type": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      },
+      "membersStatuses": [
+        {
+          "id": "postgraduate",
+          "name": "Аспирант"
+        },
+        {
+          "id": "PhD",
+          "name": "Докторант"
+        },
+        {
+          "id": "worker",
+          "name": "Преподаватель"
+        },
+        {
+          "id": "researcher",
+          "name": "Исследователь"
+        }
+      ],
+      "createdAt": "2023-11-02T14:30:27.116529+03:00",
+      "updatedAt": "2023-12-06T14:47:21.671201+03:00",
+      "isActive": true,
+      "organizerPhone": [
+        "78127144013"
+      ],
+      "eventFormat": {
+        "id": "mixed",
+        "name": "Смешанное"
+      },
+      "status": {
+        "id": "finished",
+        "name": "Завершено"
+      },
+      "location": "г Санкт-Петербург, ул Декабристов, д 35",
+      "locationEng": "Russia, Saint-Petersburg city, ulitsa Dekabristov, dom 35",
+      "membersAges": {
+        "lower": null,
+        "upper": null
+      },
+      "registrationStatus": {
+        "id": "not_required",
+        "name": "Не требуется"
+      },
+      "registrationPeriod": null,
+      "registrationComment": null,
+      "placesNumber": null,
+      "periods": [
+        {
+          "lower": "2023-03-30T22:00:00+03:00",
+          "upper": "2023-03-31T22:00:00+03:00"
+        }
+      ],
+      "isAvailable": true,
+      "coordinates": [
+        "59.92551347356812400",
+        "30.29038285926202000"
+      ],
+      "title": "Всероссийской научно-практическая конференция с международным участием «Наука – Физической культуре и Спорту»",
+      "titleEng": null,
+      "cypher": null,
+      "isPublished": true,
+      "publishedAt": "2023-12-06T14:47:21.669462+03:00",
+      "cover": {
+        "id": "85b10051-4f15-45a0-be02-367375802d32",
+        "url": "/api/v1/organization_attachment/85b10051-4f15-45a0-be02-367375802d32/",
+        "name": "33.jpg"
+      },
+      "parent": null,
+      "typeof": {
+        "id": 2,
+        "url": "/api/v1/event_type/2/",
+        "name": "Конференция"
+      }
     }
   ]
 }
