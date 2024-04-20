@@ -1,0 +1,433 @@
+{
+  "success": true,
+  "count": 4076,
+  "data": [
+    {
+      "id": 184271,
+      "title": "выставка «Элемент»",
+      "place": {
+        "id": 1185,
+        "title": "Музей политической истории России",
+        "slug": "muzej-politicheskoj-istorii",
+        "address": "ул. Куйбышева, д. 2-4",
+        "phone": "+7 812 233-70-52, +7 812 313-61-63",
+        "subway": "Горьковская",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/muzej-politicheskoj-istorii/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.954493,
+          "lon": 30.325184
+        },
+        "is_stub": false
+      },
+      "description": "Чёрно-белые фотографии Алексея Конина рассказывают о многогранной жизни большого города.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": 0,
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 186533,
+      "title": "Выставка «Формы движения»",
+      "place": {
+        "id": 30483,
+        "title": "общественное пространство «Севкабель Порт»",
+        "slug": "art-prostranstvo-port-sevkabel-30483",
+        "address": "Кожевенная линия, д. 40",
+        "phone": "",
+        "subway": "Василеостровская, Приморская",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/art-prostranstvo-port-sevkabel-30483/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.92510600000021,
+          "lon": 30.24072700000005
+        },
+        "is_stub": false
+      },
+      "description": "С 21 февраля по 5 апреля гости смогут увидеть в «Севкабель Порту» творческие искания более 60 художников — как живших в первой половине XX века, так и наших современников.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": 0,
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 192756,
+      "title": "выставка «От Мунка до Босха. Самые загадочные картины мира»",
+      "place": {
+        "id": 113,
+        "title": "«Лофт Проект Этажи»",
+        "slug": "loftprojectetagi",
+        "address": "Лиговский просп., д. 74",
+        "phone": "+7 812 458-50-05",
+        "subway": "Лиговский Проспект",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/loftprojectetagi/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.92168299999999,
+          "lon": 30.35652599999999
+        },
+        "is_stub": false
+      },
+      "description": "Выставка приглашает соприкоснуться с тайнами произведений известных художников.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": "16+",
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/5b/23/5b23690f7bdbf6766cf349db4293d86d.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/2f/51/2f518d390ff978a27db5b76281bc80ed.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/64/18/64186130481ef6d1d7bc603d4c4a6481.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/b0/0a/b00a02e6c2ea86c317de43acaaefb1ad.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/1b/36/1b36b7dbb1b83fae0ba52140e34a49b9.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/32/a0/32a0f67a1643a957a45605be44499104.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 195016,
+      "title": "выставка «Хельмут Ньютон»",
+      "place": {
+        "id": 157,
+        "title": "Музей современного искусства Эрарта",
+        "slug": "erarta",
+        "address": "29-я линия В. О., д. 2",
+        "phone": "+7 812 324-08-09",
+        "subway": "Василеостровская, Приморская, Спортивная",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/erarta/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.93178799999995,
+          "lon": 30.251674
+        },
+        "is_stub": false
+      },
+      "description": "Работы Хельмута Ньютона — это новаторство и провокация, безупречный вкус и совершенная форма. Выставка в музее Эрарта знакомит зрителей с наиболее ярким периодом в творчестве фотографа.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": "18+",
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/24/18/241878558a548cce3832138a3555d9bd.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/13/e2/13e26c74c6e9c5696d26cd68a4acc39f.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/4c/cb/4ccbb877c2238a86f8ceeeec5e995bb8.JPG",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/03/c6/03c6bf7ab3e0b16c6a400fd88da724a8.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/b7/38/b7380dd88d61cf1e915b9dd5019292ff.JPG",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        },
+        {
+          "image": "https://media.kudago.com/images/event/2c/2d/2c2d6a1c65556d0b80ed72bc5687573b.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 161627,
+      "title": "выставка-ярмарка «Крафт-базар»",
+      "place": {
+        "id": 344,
+        "title": "Выставочный центр Санкт-Петербургского отделения Союза художников России",
+        "slug": "spb-uniart",
+        "address": "ул. Большая Морская, д. 38",
+        "phone": "+7 812 314-30-60, +7 812 315-74-26",
+        "subway": "Адмиралтейская",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/spb-uniart/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.93296000000002,
+          "lon": 30.31138599999999
+        },
+        "is_stub": false
+      },
+      "description": "Хотите наполнить дождливый октябрь красками, положительными эмоциями и красотой? Отправляйтесь на «Крафт-базар»! На ярмарке можно будет приобрести уникальные предметы, созданные настоящими мастерами своего дела, и вдохновиться на собственные творческие подвиги.",
+      "categories": [
+        "exhibition",
+        "yarmarki-razvlecheniya-yarmarki",
+        "entertainment"
+      ],
+      "age_restriction": "6+",
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 162326,
+      "title": "ювелирная выставка-продажа «Сокровища Петербурга»",
+      "place": {
+        "id": 9898,
+        "title": "дворец Демидова",
+        "slug": "osobnak-demidovih",
+        "address": "ул. Б. Морская, д. 43",
+        "phone": "",
+        "subway": "Адмиралтейская",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/osobnak-demidovih/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.93218874136772,
+          "lon": 30.30577539975551
+        },
+        "is_stub": false
+      },
+      "description": "«Сокровища Петербурга» — большая ювелирная выставка, настоящая шкатулка с драгоценностями. В этот раз особое внимание будет уделено мастерам и компаниям, задающим модные тренды. А тема «Украшения будущего»  станет лейтмотивом.",
+      "categories": [
+        "exhibition",
+        "yarmarki-razvlecheniya-yarmarki",
+        "entertainment"
+      ],
+      "age_restriction": 0,
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 206626,
+      "title": "программа «Прошли огонь, спасая воду» в экспозиционно-выставочном комплексе «Вселенная воды»",
+      "place": {
+        "id": 2050,
+        "title": "Экспозиционно-выставочный комплекс «Вселенная Воды»",
+        "slug": "muzej-mir-vody",
+        "address": "ул. Шпалерная, д. 56",
+        "phone": "",
+        "subway": "Площадь Александра Невского, Площадь Восстания",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/muzej-mir-vody/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.94920080834419,
+          "lon": 30.37792126745935
+        },
+        "is_stub": false
+      },
+      "description": "Программа, посвящённая Дню памяти жертв блокады Ленинграда, знакомит с жизнью и бытом водоканальцев, в тяжелейших условиях спасавших воду для горожан.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": "6+",
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/7c/33/7c3310bf3fc5276484f599d2a45a764d.jpg",
+          "source": {
+            "name": "предоставлено организатором",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 189273,
+      "title": "открытие вагона аптеки-перевязочной в Музее железных дорог России",
+      "place": {
+        "id": 989,
+        "title": "музей железных дорог России",
+        "slug": "muzej-oktyabrskoj-zheleznoj-dorogi",
+        "address": "пер. Библиотечный, д. 4, корп. 2.",
+        "phone": "+7 812 457-23-16",
+        "subway": "Балтийская",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/muzej-oktyabrskoj-zheleznoj-dorogi/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.905288691892,
+          "lon": 30.29764556770575
+        },
+        "is_stub": false
+      },
+      "description": "1 октября в Музее железных дорог России представят исторический вагон санитарного поезда, который в годы Великой Отечественной войны эвакуировал и ставил на ноги тысячи раненых и больных.",
+      "categories": [
+        "exhibition"
+      ],
+      "age_restriction": 0,
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 191887,
+      "title": "семейная программа «Ковёр-самолёт: путешествие на Восток» в Российском этнографическом музее",
+      "place": {
+        "id": 1225,
+        "title": "Российский этнографический музей",
+        "slug": "ethnomuseum",
+        "address": "ул. Инженерная, д. 4/1",
+        "phone": "+7 812 570-54-21",
+        "subway": "Гостиный двор, Невский Проспект",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/ethnomuseum/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.93790000000001,
+          "lon": 30.33399599999999
+        },
+        "is_stub": false
+      },
+      "description": "Путешествие в восточную сказку для детей и взрослых устраивает Российский этнографический музей. Гости семейной программы увидят легендарные азербайджанские ковры, продегустируют блюда национальной кухни и примут участие в необычных мастер-классах.",
+      "categories": [
+        "exhibition",
+        "kids",
+        "tour"
+      ],
+      "age_restriction": 0,
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 180332,
+      "title": "тематическая программа «Элементарно, Water’son!»",
+      "place": {
+        "id": 2050,
+        "title": "Экспозиционно-выставочный комплекс «Вселенная Воды»",
+        "slug": "muzej-mir-vody",
+        "address": "ул. Шпалерная, д. 56",
+        "phone": "",
+        "subway": "Площадь Александра Невского, Площадь Восстания",
+        "location": "spb",
+        "site_url": "https://kudago.com/spb/place/muzej-mir-vody/",
+        "is_closed": false,
+        "coords": {
+          "lat": 59.94920080834419,
+          "lon": 30.37792126745935
+        },
+        "is_stub": false
+      },
+      "description": "«Вселенная Воды» приглашает детей и взрослых на уникальную тематическую программу! Вы сможете посетить сразу две экскурсии: по мультимедийной выставке комплекса и по исторической экспозиции «Мир воды Санкт-Петербурга» в Водонапорной башне.",
+      "categories": [
+        "exhibition",
+        "tour"
+      ],
+      "age_restriction": "6+",
+      "is_free": false,
+      "images": [
+        {
+          "image": "https://media.kudago.com/images/event/82/bb/82bb410cca413007c5598f40c6ebd68c.jpg",
+          "source": {
+            "name": "",
+            "link": ""
+          }
+        }
+      ]
+    }
+  ]
+}
