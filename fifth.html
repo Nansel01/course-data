@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск недвижимости</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px 20px;
+            text-align: right;
+        }
+        header a {
+            margin-right: 40px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+
+        .container {
+            display: inline-block;
+            text-align: left;
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 35px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border-radius: 35px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+
+        form {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select {
+            width: calc(100% - 22px);
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px 20px;
+            border-radius: 35px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #search-results {
+            text-align: center;
+        }
+
+        #search-results ul {
+            list-style-type: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #search-results li {
+            margin-bottom: 10px;
+            text-align: left;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 25px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            background-color: #f9f9f9;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index1.html">Course Selection</a>
+        <a href="second.html">Transfer Information(soon)</a>
+        <a href="third.html">Events</a>
+        <a href="#">Fourth(soon)</a>
+        <a href="fifth.html">Housing Selection</a>
+        <a href="#">Sixth(soon)</a>
+    </header>
+    <div class="container">
+        <form id="property-search-form">
+            <label for="area">Площадь (м²):</label>
+            <select id="area" name="area">
+                <option value="">Любая</option>
+                <option value="40">40</option>
+                <option value="50">50</option>
+                <option value="60">60</option>
+                <option value="70">70</option>
+                <option value="80">80</option>
+            </select>
+            <br>
+            <label for="rooms">Количество комнат:</label>
+            <select id="rooms" name="rooms">
+                <option value="">Любое</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <br>
+            <label for="sortBy">Сортировать по:</label>
+            <select id="sortBy" name="sortBy">
+                <option value="area_asc">По площади (возрастание)</option>
+                <option value="area_desc">По площади (убывание)</option>
+                <option value="rooms_asc">По количеству комнат (возрастание)</option>
+                <option value="rooms_desc">По количеству комнат (убывание)</option>
+                <option value="price_asc">По цене (возрастание)</option>
+                <option value="price_desc">По цене (убывание)</option>
+            </select>
+            <br>
+            <button type="button" onclick="searchProperties()">Поиск</button>
+        </form>
+    </div>
+
+    <div id="search-results">
+        <!-- Результаты поиска будут отображаться здесь -->
+    </div>
+
+    <script>
+        function searchProperties() {
+            const form = document.getElementById('property-search-form');
+            const formData = new FormData(form);
+            const area = formData.get('area');
+            const rooms = formData.get('rooms');
+            const sortBy = formData.get('sortBy');
+
+            fetch('https://raw.githubusercontent.com/Nansel01/course-data/main/apart.json')
+                .then(response => response.json())
+                .then(data => {
+                    let filteredData = data.apartments;
+
+                    if (area) {
+                        filteredData = filteredData.filter(apartment => apartment.area === parseInt(area));
+                    }
+
+                    if (rooms) {
+                        filteredData = filteredData.filter(apartment => apartment.rooms === parseInt(rooms));
+                    }
+
+                    if (sortBy === 'area_asc') {
+                        filteredData.sort((a, b) => a.area - b.area);
+                    } else if (sortBy === 'area_desc') {
+                        filteredData.sort((a, b) => b.area - a.area);
+                    } else if (sortBy === 'rooms_asc') {
+                        filteredData.sort((a, b) => a.rooms - b.rooms);
+                    } else if (sortBy === 'rooms_desc') {
+                        filteredData.sort((a, b) => b.rooms - a.rooms);
+                    } else if (sortBy === 'price_asc') {
+                        filteredData.sort((a, b) => a.price - b.price);
+                    } else if (sortBy === 'price_desc') {
+                        filteredData.sort((a, b) => b.price - a.price);
+                    }
+
+                    const resultsContainer = document.getElementById('search-results');
+                    resultsContainer.innerHTML = ''; // очищаем предыдущие результаты
+
+                    if (filteredData.length > 0) {
+                        const ul = document.createElement('ul');
+                        filteredData.forEach(property => {
+                            const li = document.createElement('li');
+                            li.textContent = `Адрес: ${property.address}, Площадь: ${property.area}м², Количество комнат: ${property.rooms}, Цена: ${new Intl.NumberFormat('ru-RU', { style: 'currency', currency: 'RUB' }).format(property.price)}`;
+                            ul.appendChild(li);
+                        });
+                        resultsContainer.appendChild(ul);
+                    } else {
+                        resultsContainer.textContent = 'Ничего не найдено';
+                    }
+                })
+                .catch(error => {
+                    console.error('Ошибка при выполнении запроса:', error);
+                    const resultsContainer = document.getElementById('search-results');
+                    resultsContainer.textContent = 'Произошла ошибка при выполнении запроса';
+                });
+        }
+    </script>
+</body>
+</html>
