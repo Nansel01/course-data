@@ -1,0 +1,245 @@
+{
+    "apartments": [
+      {
+        "id": 1,
+        "address": "Невский проспект, д. 10",
+        "area": 60,
+        "rooms": 2,
+        "price": 30000,
+        "description": "Уютная двухкомнатная квартира в центре города. Рядом метро, магазины, кафе.",
+        "images": [
+          "https://example.com/apartment1_image1.jpg",
+          "https://example.com/apartment1_image2.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "address": "Приморский проспект, д. 20",
+        "area": 45,
+        "rooms": 1,
+        "price": 25000,
+        "description": "Студия с видом на залив. Рядом парк, набережная, общественный транспорт.",
+        "images": [
+          "https://example.com/apartment2_image1.jpg",
+          "https://example.com/apartment2_image2.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "address": "Московский проспект, д. 5",
+        "area": 75,
+        "rooms": 3,
+        "price": 40000,
+        "description": "Просторная трехкомнатная квартира с современным ремонтом. Рядом парк, школа, торговые центры.",
+        "images": [
+          "https://example.com/apartment3_image1.jpg",
+          "https://example.com/apartment3_image2.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "address": "Улица Рубинштейна, д. 15",
+        "area": 55,
+        "rooms": 2,
+        "price": 28000,
+        "description": "Светлая двухкомнатная квартира в центре города. Рядом рестораны, бары, транспорт.",
+        "images": [
+          "https://example.com/apartment4_image1.jpg",
+          "https://example.com/apartment4_image2.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "address": "Проспект Просвещения, д. 30",
+        "area": 70,
+        "rooms": 3,
+        "price": 35000,
+        "description": "Трехкомнатная квартира с хорошим ремонтом. Рядом парк, школа, магазины.",
+        "images": [
+          "https://example.com/apartment5_image1.jpg",
+          "https://example.com/apartment5_image2.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "address": "Большая Морская улица, д. 25",
+        "area": 80,
+        "rooms": 2,
+        "price": 32000,
+        "description": "Просторная квартира с видом на Невский проспект. Рядом театры, музеи, кафе.",
+        "images": [
+          "https://example.com/apartment6_image1.jpg",
+          "https://example.com/apartment6_image2.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "address": "Красноармейская улица, д. 12",
+        "area": 50,
+        "rooms": 1,
+        "price": 22000,
+        "description": "Студия в центре города. Рядом магазины, кафе, транспорт.",
+        "images": [
+          "https://example.com/apartment7_image1.jpg",
+          "https://example.com/apartment7_image2.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "address": "Профессора Попова улица, д. 8",
+        "area": 65,
+        "rooms": 2,
+        "price": 29000,
+        "description": "Современная квартира с новым ремонтом. Рядом парк, магазины, общественный транспорт.",
+        "images": [
+          "https://example.com/apartment8_image1.jpg",
+          "https://example.com/apartment8_image2.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "address": "Площадь Восстания, д. 15",
+        "area": 40,
+        "rooms": 1,
+        "price": 20000,
+        "description": "Компактная квартира с удобным расположением. Рядом метро, торговые центры, кафе.",
+        "images": [
+          "https://example.com/apartment9_image1.jpg",
+          "https://example.com/apartment9_image2.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "address": "Большой проспект, д. 40",
+        "area": 55,
+        "rooms": 2,
+        "price": 27000,
+        "description": "Светлая двухкомнатная квартира в новом доме. Рядом парк, школа, магазины.",
+        "images": [
+          "https://example.com/apartment10_image1.jpg",
+          "https://example.com/apartment10_image2.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "address": "Улица Маяковского, д. 18",
+        "area": 60,
+        "rooms": 2,
+        "price": 29000,
+        "description": "Двухкомнатная квартира с балконом. Рядом парк, школа, магазины.",
+        "images": [
+          "https://example.com/apartment11_image1.jpg",
+          "https://example.com/apartment11_image2.jpg"
+        ]
+      },
+      {
+        "id": 12,
+        "address": "Большая Посадская улица, д. 7",
+        "area": 70,
+        "rooms": 3,
+        "price": 36000,
+        "description": "Трехкомнатная квартира в сталинском доме. Рядом парк, транспорт, магазины.",
+        "images": [
+          "https://example.com/apartment12_image1.jpg",
+          "https://example.com/apartment12_image2.jpg"
+        ]
+      },
+      {
+        "id": 13,
+        "address": "Петровская набережная, д. 3",
+        "area": 85,
+        "rooms": 3,
+        "price": 42000,
+        "description": "Просторная трехкомнатная квартира с видом на Неву. Рядом парк, рестораны, музеи.",
+        "images": [
+          "https://example.com/apartment13_image1.jpg",
+          "https://example.com/apartment13_image2.jpg"
+        ]
+      },
+      {
+        "id": 14,
+        "address": "Лиговский проспект, д. 25",
+        "area": 45,
+        "rooms": 1,
+        "price": 23000,
+        "description": "Студия с ремонтом. Рядом метро, торговые центры, кафе.",
+        "images": [
+          "https://example.com/apartment14_image1.jpg",
+          "https://example.com/apartment14_image2.jpg"
+        ]
+      },
+      {
+        "id": 15,
+        "address": "Пушкинская улица, д. 12",
+        "area": 50,
+        "rooms": 2,
+        "price": 26000,
+        "description": "Двухкомнатная квартира с новым ремонтом. Рядом парк, школа, магазины.",
+        "images": [
+          "https://example.com/apartment15_image1.jpg",
+          "https://example.com/apartment15_image2.jpg"
+        ]
+      },
+      {
+        "id": 16,
+        "address": "Набережная реки Фонтанки, д. 8",
+        "area": 60,
+        "rooms": 2,
+        "price": 31000,
+        "description": "Двухкомнатная квартира с видом на Фонтанку. Рядом парк, музеи, театры.",
+        "images": [
+          "https://example.com/apartment16_image1.jpg",
+          "https://example.com/apartment16_image2.jpg"
+        ]
+      },
+      {
+        "id": 17,
+        "address": "Площадь Ленина, д. 5",
+        "area": 65,
+        "rooms": 2,
+        "price": 28000,
+        "description": "Светлая двухкомнатная квартира с балконом. Рядом парк, кафе, транспорт.",
+        "images": [
+          "https://example.com/apartment17_image1.jpg",
+          "https://example.com/apartment17_image2.jpg"
+        ]
+      },
+      {
+        "id": 18,
+        "address": "Кронверкская набережная, д. 10",
+        "area": 70,
+        "rooms": 3,
+        "price": 37000,
+        "description": "Трехкомнатная квартира с видом на Неву. Рядом парк, музеи, рестораны.",
+        "images": [
+          "https://example.com/apartment18_image1.jpg",
+          "https://example.com/apartment18_image2.jpg"
+        ]
+      },
+      {
+        "id": 19,
+        "address": "Большой проспект П.С., д. 3",
+        "area": 55,
+        "rooms": 2,
+        "price": 27000,
+        "description": "Двухкомнатная квартира в новом доме. Рядом парк, школа, торговые центры.",
+        "images": [
+          "https://example.com/apartment19_image1.jpg",
+          "https://example.com/apartment19_image2.jpg"
+        ]
+      },
+      {
+        "id": 20,
+        "address": "Промышленная улица, д. 25",
+        "area": 60,
+        "rooms": 2,
+        "price": 29000,
+        "description": "Уютная квартира с ремонтом. Рядом парк, магазины, общественный транспорт.",
+        "images": [
+          "https://example.com/apartment20_image1.jpg",
+          "https://example.com/apartment20_image2.jpg"
+        ]
+      }
+    ]
+  }
+  
