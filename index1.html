@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Selection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            padding: 20px 20px;
+            text-align: right;
+        }
+        header a {
+            margin-right: 40px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+        }
+        .container {
+            width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        select {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #results {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index1.html">Course Selection</a>
+        <a href="second.html">Transfer Information</a>
+        <a href="third.html">Events</a>
+        <a href="#">Fourth</a>
+        <a href="#">Fifth</a>
+        <a href="#">Sixth</a>
+    </header>
+    <div class="container">
+        <h2>Enter Your Scores</h2>
+        <label for="subject1">Subject 1:</label>
+        <select id="subject1" onchange="updateOptions('subject1', this.value)">
+            <option value="Математика">Математика</option>
+            <option value="Информатика">Информатика</option>
+            <option value="Физика">Физика</option>
+            <option value="Русский язык">Русский язык</option>
+            <option value="Английский язык">Английский язык</option>
+            <option value="Обществознание">Обществознание</option>
+        </select>
+        <label for="subject2">Subject 2:</label>
+        <select id="subject2" onchange="updateOptions('subject2', this.value)">
+            <option value="Математика">Математика</option>
+            <option value="Информатика">Информатика</option>
+            <option value="Физика">Физика</option>
+            <option value="Русский язык">Русский язык</option>
+            <option value="Английский язык">Английский язык</option>
+            <option value="Обществознание">Обществознание</option>
+        </select>
+        <label for="subject3">Subject 3:</label>
+        <select id="subject3" onchange="updateOptions('subject3', this.value)">
+            <option value="Математика">Математика</option>
+            <option value="Информатика">Информатика</option>
+            <option value="Физика">Физика</option>
+            <option value="Русский язык">Русский язык</option>
+            <option value="Английский язык">Английский язык</option>
+            <option value="Обществознание">Обществознание</option>
+        </select>
+        <button onclick="checkScores()">Check Courses</button>
+        <div id="results"></div>
+    </div>
+
+    <script>
+        function updateOptions(selectedId, selectedValue) {
+            // Disable the selected option in other dropdowns
+            const dropdowns = ['subject1', 'subject2', 'subject3'];
+            dropdowns.forEach(id => {
+                const dropdown = document.getElementById(id);
+                for (let i = 0; i < dropdown.options.length; i++) {
+                    if (dropdown.options[i].value === selectedValue && id !== selectedId) {
+                        dropdown.options[i].disabled = true;
+                    } else {
+                        dropdown.options[i].disabled = false;
+                    }
+                }
+            });
+        }
+
+        function checkScores() {
+            const subject1 = document.getElementById('subject1').value;
+            const subject2 = document.getElementById('subject2').value;
+            const subject3 = document.getElementById('subject3').value;
+
+            // Check if the same subject is selected more than once
+            if (subject1 === subject2 || subject1 === subject3 || subject2 === subject3) {
+                alert('Please select three different subjects.');
+                return;
+            }
+
+            const scores = {
+                [subject1]: parseInt(prompt(`Enter your score for ${subject1}:`)),
+                [subject2]: parseInt(prompt(`Enter your score for ${subject2}:`)),
+                [subject3]: parseInt(prompt(`Enter your score for ${subject3}:`))
+            };
+
+            fetch('https://raw.githubusercontent.com/Nansel01/course-data/main/data.json')
+            .then(response => response.json())
+            .then(data => {
+                const possibleCourses = data.filter(course => {
+                    return scores[subject1] >= course['Мин. балл 1'] &&
+                           scores[subject2] >= course['Мин. балл 2'] &&
+                           scores[subject3] >= course['Мин. балл 3'];
+                });
+
+                const resultsDiv = document.getElementById('results');
+                resultsDiv.innerHTML = '';
+
+                if (possibleCourses.length > 0) {
+                    const resultList = document.createElement('ul');
+                    possibleCourses.forEach(course => {
+                        const listItem = document.createElement('li');
+                        const courseInfo = `
+                            Направление: ${course['Направление']}<br>
+                            Конкурсн. группа: ${course['Конкурсн. группа']}<br>
+                            КЦП_Б: ${course['КЦП_Б']}<br>
+                            КЦП_К: ${course['КЦП_К']}<br>
+                            Мин. балл ${subject1}: ${course['Мин. балл 1']}<br>
+                            Мин. балл ${subject2}: ${course['Мин. балл 2']}<br>
+                            Мин. балл ${subject3}: ${course['Мин. балл 3']}<br>
+                            Балл: ${course['Балл']}<br>
+                            Конкурс_Б: ${course['Конкурс_Б']}<br>
+                            Конкурс_К: ${course['Конкурс_К']}<br>
+                        `;
+                        listItem.innerHTML = courseInfo;
+                        resultList.appendChild(listItem);
+                    });
+                    resultsDiv.appendChild(resultList);
+                } else {
+                    resultsDiv.textContent = 'No matching courses found.';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching data:', error);
+            });
+        }
+    </script>
+</body>
+</html>
